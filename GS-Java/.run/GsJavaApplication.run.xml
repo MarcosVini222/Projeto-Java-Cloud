@@ -1,0 +1,26 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GsJavaApplication" type="Application" factoryName="Application">
+    <envs>
+      <env name="db.passwd" value="fiap25" />
+      <env name="db.url" value="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl" />
+      <env name="db.user" value="rm555160" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="br.com.fiap.gsjava.GsJavaApplication" />
+    <module name="GSJava.main" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+  <configuration default="false" name="GsJavaApplication" type="Application" factoryName="Application">
+    <envs>
+      <env name="DB_PASS" value="fiap25" />
+      <env name="DB_URL" value="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl" />
+      <env name="DB_USER" value="rm555160" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="br.com.fiap.gsjava.GsJavaApplication" />
+    <module name="GSJava.main" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

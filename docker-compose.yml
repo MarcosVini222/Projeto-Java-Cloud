@@ -1,0 +1,13 @@
+services:
+  gs-java:
+    container_name: gs-java
+    build:
+      context: ./gs-java
+    environment:
+      DB_HOST: sqlserver-rm556496
+      DB_DATABASE: dimdimdb
+      DB_USER: admsql
+      DB_PASS: devops@Fiap2tds
+    restart: always
+    ports:
+      - "8080:8080"
